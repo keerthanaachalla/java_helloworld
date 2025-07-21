@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STUDENT PROFILE</title>
+    <style>
+        h1, h2, h3, h4 {
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center the content horizontally */
+            margin-bottom: 10px;
+        }
+
+        .header img {
+            margin-left: 20px;
+            }
+        .profile {
+            display: flex;
+            justify-content: space-between; /* Place content and image on opposite sides */
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+       .inner-table {
+            width: 100%;
+            margin: 0;
+        }
+
+        .inner-table th, .inner-table td {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+        .inner-table th {
+            background-color: #eaeaea;
+        }
+        .equal-column {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <figure>
+            <img src="C:\Users\Keert\Downloads\gvpcoe_logo.jpg"
+                 width="120px"
+                 height="120px"
+                 alt="College Logo">
+        </figure>
+        <div>
+            <h2>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING FOR WOMEN</h2>
+            <h3>Madhurwada::Visakhapatnam-530048</h3>
+            <h4>(Approved by AICTE, New Delhi and Affiliated to JNTU, KAKINADA)</h4>
+        </div>
+<div class="profile">
+        <figure>
+    <img src=""
+         width="180px"
+         height="180px"
+         alt="photo of the student">
+    </figure>
+    </div>
+    </div>
+    <br>
+    <h2><u>STUDENT PROFILE</u></h2>
+    <br><br>
+
+    <table>
+        <thead>
+            <tr> 
+                <th>H T NO.</th>
+                <th>NAME OF THE STUDENT (as per SSC)</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tr>
+<form>
+<td><input type="number" name="htno" id="htno" autofocus ></td>
+<td><input type="text" name="name" id="name" autofocus ></td>
+<td><input type="text" name="branch" id="branch" autofocus ></td>
+</form>
+</tr>
+    </table>
+<table>
+        <thead>
+            <tr> 
+                <th>DATE OF BIRTH(as per SSC)</th>
+                <th>AADHAR NUMBER(self)</th>
+                <th>MOBILE NUMBER(self)</th>
+                <th>e-mail ID</th>
+            </tr>
+        </thead>
+        <tr>
+<form>
+    <td><input type="date" name="date" id="date"</td>
+    <td><input type="number" name="ano" id="ano"  ></td>
+    <td><input type="number" name="mno" id="mno" ></td>
+    <td><input type="email" name="email" id="email"></td>
+</form>
+  </tr>    </table>
+<table>
+<tr>
+<th colspan="4">SSC/CBSE etc</th>
+<th colspan="4">School of Study & Place</th>
+</tr>
+<tr>
+<form>
+<td>% of marks</td>
+<td><input type="text" name="%m" id="%m"></td>
+<td>grade</td>
+<td><input type="text" name="g" id="g"></td>
+<td colspan="4"><input type="text" name="school" id="school"></td>
+</form>
+</tr>
+<tr>
+<th colspan="4">INTERMEDIATE/+2/DIPLOMA</th>
+<th colspan="4">college of Study & Place</th>
+</tr>
+<tr>
+<form>
+<td>% of marks</td>
+<td><input type="text" name="%m1" id="%m1"></td>
+<td>grade</td>
+<td><input type="text" name="g1" id="g1"></td>
+<td colspan="4"><input type="text" name="college" id="college"></td>
+</form>
+<table>
+<tr>
+<th colspan="3" >EamCET</th>
+<th colspan="3">JEE</th>
+<th colspan="3">ECAT</th>
+</tr>
+<tr>
+<td>HTNO</td>
+<td>YEAR</td>
+<td>RANK</td>
+<td>HTNO</td>
+<td>YEAR</td>
+<td>RANK</td>
+<td>HTNO</td>
+<td>YEAR</td>
+<td>RANK</td>
+</tr>
+<tr>
+<form>
+<td><input type="number" name="ehtno" id="ehtno"></td>
+<td><input type="text" name="eyear" id="eyear"></td>
+<td><input type="number" name="e.rank" id="e.rank"></td>
+<td><input type="number" name="jhtno" id="jhtno"></td>
+<td><input type="text" name="jyear" id="jyear"></td>
+<td><input type="number" name="jrank" id="jrank"></td>
+<td><input type="number" name="e1htno" id="e1htno"></td>
+<td><input type="text" name="e1year" id="e1year"></td>
+<td><input type="number" name="e1rank" id="e1rank"></td>
+</form>
+</tr>
+</table>
+<h3>ADMISSION DETAILS</h3>
+
+<table>
+<tr> 
+<th colspan="4">CATEGORY OF ADMISSION</th>
+<th>NATIONALITY AND RELIGION</th>
+<th>CASTE AND CATEGORY</th>
+<th>STATE TO WHICH BELONGS TO</th>
+</tr>
+<tr>
+<td colspan="2">EMACET</td>
+<td>SPOT</td>
+<td>ECET</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<form>
+<td> cat A</td>
+<td>cat B</td>
+<td><input type="text" ></td>
+<td><input type="text"></td>
+<td><input type="text" ></td>
+<td><input type="text"></td>
+<td><input type="text" ></td>
+<td><input type="text" placeholder="example-Ap"></td>
+</form>
+</tr>
+</table>
+<table>
+<tr>
+<form>
+<td>AVAILING AP GOVT FEE REIMBURSEMENT SCHEMA</td>
+<td>yes</td>
+<td><input type="text" ></td>
+<td>no</td>
+<td><input type="text" ></td>
+</form>
+</table>
+
+<h3>DETAILS OF PARENTS</h3>
+
+<table>
+<tr>
+<th colspan="2">FATHER's NAME</th>
+<th colspan="2">MOTHER's NAME</th>
+</tr>
+<form>
+<tr>
+<td colspan="2"><input type="text"></td>
+<td colspan="2"><input type="text"></td>
+</tr>
+<tr>
+<td>QUALIFICATION</td>
+<td><input type="text" ></td>
+<td>QUALIFICATION</td>
+<td><input type="text" ></td>
+</tr>
+<tr>
+<td>OCCUPATION</td>
+<td><input type="text"></td>
+<td>OCCUPATION</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>ANNUAL INCOME</td>
+<td><input type="text"></td>
+<td>ANNUAL INCOME</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>LAND LINE (off/res)</td>
+<td><input type="number"></td>
+<td>LAND LINE (off/res)</td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>MOBILE</td>
+<td><input type="number"></td>
+<td>MOBILE</td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>email</td>
+<td><input type="email"></td>
+<td>email</td>
+<td><input type="email"></td>
+</tr>
+<tr>
+<td colspan="2">PERMANENT ADDRESS</td>
+<td colspan="2">PERMANENT ADDRESS</td>
+</tr>
+<tr>
+<td colspan="2"><input type="text"></td>
+<td colspan="2"><input type="text"></td>
+</tr>
+</form>
+</table>
+
+
+
+<table>   
+ <tr>
+<th colspan="2">DETAILS OF HOUSE(if any)</th>
+<th colspan="2">DETAILS OF LOCAL GUARDIAN</th>
+</tr>
+
+  <FORM>
+        <tr>
+          <td>COLLEGE/GOVT/OUTSIDE</td>
+          <td><input type="text"></td>
+          <td>NAME</td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><input type="text"></td>
+            <td>ADDRESS</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>PHONENO</td>
+            <td><input type="text"></td>
+            <td>PHONENO</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>MOBILENO</td>
+            <td><input type="text"></td>
+            <td>MOBILENO</td>
+            <td><input type="text"></td>
+        </tr>
+    </FORM>
+    </table>
+</body>
+</html>
